@@ -9,7 +9,7 @@ export async function POST(req: NextRequest) {
         }
 
         // Remplace par ta vraie clé OpenRouter ici
-        const OPENROUTER_API_KEY = "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"
+        const OPENROUTER_API_KEY = ""
 
         const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
             method: "POST",
